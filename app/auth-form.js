@@ -14,7 +14,7 @@ export default function AuthForm() {
       theme="dark"
       showLinks={false}
       providers={["github"]}
-      redirectTo="https://supabase-nextjs-six-pink.vercel.app/auth/callback"
+      redirectTo="http://localhost:3000/auth/callback"
     />
   )
 }
